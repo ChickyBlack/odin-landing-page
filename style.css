@@ -37,9 +37,10 @@ a {
     text-decoration: none;
 }
 
-
-
-
+.awesome-image img {
+    width: 350px;
+    height: auto;
+}
 
 .footer {
     font-family: 'Roboto', sans-serif;
