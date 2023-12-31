@@ -36,3 +36,19 @@ a {
     padding: 8px;
     text-decoration: none;
 }
+
+
+
+
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    background-color: #13293D;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
