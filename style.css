@@ -10,7 +10,7 @@ body {
 .header {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 24pt;
     background-color: #13293D;
     color: white;
     display: flex;
@@ -22,19 +22,60 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    color: white;
     margin: 0;
     padding: 0;
     gap: 8px;
 }
 
 a {
-    font-size: 14px;
     color: white;
     padding: 8px;
     text-decoration: none;
+}
+
+.header-links {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+}
+
+.block-1 {
+    background: #13293D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 250px;
+}
+
+.modal {
+    background: #13293D;
+    width: 480px;
+}
+
+.heading {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 48pt;
+}
+
+.subtext {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+button {
+    background: royalblue;
+    border: 1px solid royalblue;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
 }
 
 .awesome-image img {
